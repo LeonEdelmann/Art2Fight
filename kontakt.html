@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art 2 Fight | Kontakt</title>
+    <link rel="stylesheet" href="static/css/head.css">
+    <link rel="stylesheet" href="static/css/kontakt.css">
+</head>
+<body>
+    <section id="header">
+        <section id="head">
+            <div class="logo">
+                <a href="index.html">
+                    <div class="headline-container">
+                        <h1>Art 2 Fight<br>Multiple Martial Arts System</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="link-area">
+                <a id="programm" href="programm.html">Programm</a>
+                <a id="kontakt" href="kontakt.html">Kontakt</a>
+                <a id="training" href="training.html">Training</a>
+                <a id="partner" href="partner.html">Partner</a>
+            </div>
+        </section>
+    </section>
+    <section id="kontakt-container">
+        <h2>Kontakt</h2>
+        <div class="mail-container">
+            <p>Für die Vereinbarung eines Probetrainings 
+            schickt uns einfach eine Mail an</p>
+            <font>info@art2fight.de</font>
+            <div class="button-container">
+                <button class="button" onclick="sendEmail()">E-Mail senden</button>
+            </div>
+            <script>
+                function sendEmail() {
+                  window.location.href = 'mailto:info@art2fight.de';
+                }
+              </script>
+        </div>
+    </section>
+</body>
+</html>

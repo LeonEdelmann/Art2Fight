@@ -1,0 +1,43 @@
+#kontakt {
+    color: red;
+    text-decoration: underline;
+}
+body {
+    background-color: black;
+    color: white;
+}
+#kontakt-container { 
+    width: 85%;
+    margin: auto;
+    margin-top: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    border: 2px solid red;
+    border-radius: 5px;
+    box-shadow: rgba(255, 0, 0, 0.831) 0px 1px 20px 1px;
+}
+h2 {
+    margin: 0;
+}
+.mail-container > font {
+    color: red;
+    font-size: medium;
+    text-decoration: underline;
+}
+.button-container {
+    text-align: center;
+}
+.button {
+    margin-top: 8px;
+    color: red;
+    background-color: black;
+    border: 1px solid red;
+    padding: 8px;
+    box-shadow: rgba(255, 0, 0, 0.831) 0px 1px 20px 1px;
+}
+.button:hover {
+    cursor: pointer;
+    box-shadow: rgba(255, 255, 255, 0.831) 0px 1px 20px 1px;
+    border-color: white;
+    color: white;
+}
